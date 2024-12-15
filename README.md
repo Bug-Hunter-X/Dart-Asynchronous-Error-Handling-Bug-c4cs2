@@ -1,0 +1,3 @@
+# Dart Asynchronous Error Handling
+
+This repository demonstrates a common error in asynchronous Dart code: insufficient error handling within `async` and `await` blocks.  The provided `bug.dart` file shows a function that fetches data from a remote API. The error handling is overly broad, catching all exceptions and hindering debugging.  The solution, in `bugSolution.dart`, showcases improved error handling for better troubleshooting and maintainability.
